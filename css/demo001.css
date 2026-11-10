@@ -52,6 +52,7 @@ z-index: 99px;
   margin-top:280px;
 }
 .playpause {
+  
   padding: 25px;
   border-radius: 0% 0% 50% 50%;
   background: #5d2b0d;
@@ -336,6 +337,9 @@ display:flex;
 justify-content: center; 
 align-items: center;
 letter-spacing: 10px;
+ 
+ border-style: dotted;
+ border-color:#B8860B;
 }
 
 
@@ -489,6 +493,8 @@ display:flex;
 justify-content: center; 
 align-items: center;
 letter-spacing: 10px;
+ border-style: dotted;
+ border-color:#B8860B;
 }
 .mes{
   height: 60px;
@@ -545,6 +551,8 @@ display:flex;
 justify-content: center; 
 align-items: center;
 letter-spacing: 9px;
+ border-style: dotted;
+ border-color:#B8860B;
 }
 .porqueformas{
   font-family: 'Cormorant Garamond', serif;
@@ -614,6 +622,8 @@ justify-content: center;
 align-items: center;
 letter-spacing: 5px;
 z-index: 99999;
+border-style: dotted;
+ border-color:#B8860B;
 
 }
 .apellidos{
@@ -632,6 +642,7 @@ font-family: "Cormorant Garamond", serif;
   color:#a06e49;
   margin-top: -20px;
   letter-spacing: 4px;
+
 
 }
 .numMesa{
@@ -939,7 +950,9 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
   background-color: #000;
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 2px;
-    outline: thick double #000;
+
+     border-style: dotted;
+ border-color:#B8860B;
 
 }
 
@@ -972,7 +985,8 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
   background-color: #000;
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 2px;
-    outline: thick double #00;
+     out
+ border-color:#B8860B;
 }
 }
 @media (max-width:320px){
@@ -984,7 +998,8 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
   background-color: #000;
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 2px;
-    outline: thick double #000;
+     border-style: dotted;
+ border-color:#B8860B;
 }
 }
 
