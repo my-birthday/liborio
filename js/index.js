@@ -533,3 +533,251 @@ function showSlides(n) {
   destino.focus();
   document.execCommand('paste');
 }
+
+
+
+function confirmaciones() {
+    window.open("https://docs.google.com/spreadsheets/d/1GshxWe-zJePI11hNd1cNwyfKfRR20RLwr9VQqn7YAPY/edit?usp=drive_link");        
+}
+function personas1() {
+    window.open("pases/inicio1.html", "_self");        
+}
+function personas2() {
+    window.open("pases/inicio2.html", "_self");        
+}
+function personas3() {
+    window.open("pases/inicio3.html", "_self");        
+}
+function personas4() {
+    window.open("pases/inicio4.html", "_self");        
+}
+function personas5() {
+    window.open("pases/inicio5.html", "_self");        
+}
+function personas6() {
+    window.open("pases/inicio6.html", "_self");        
+}
+function personas7() {
+    window.open("pases/inicio7.html", "_self");        
+}
+function personas8() {
+    window.open("pases/inicio8.html", "_self");        
+}
+function personas9() {
+    window.open("pases/inicio9.html", "_self");        
+}
+
+function personas10() {
+    window.open("pases/FamSolis.html", "_self");        
+}
+function personas11() {
+    window.open("pases/FamLeon.html", "_self");        
+}
+function personas12() {
+    window.open("pases/FamChaidez.html", "_self");        
+}
+function personas13() {
+    window.open("pases/FamItd.html", "_self");        
+}
+function personas14() {
+    window.open("pases/LosChavorrucos.html", "_self");        
+}
+
+ function copiar1(){
+  var origen = document.getElementById('target1');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar2(){
+  var origen = document.getElementById('target2');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar3(){
+  var origen = document.getElementById('target3');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar4(){
+  var origen = document.getElementById('target4');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar5(){
+  var origen = document.getElementById('target5');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar6(){
+  var origen = document.getElementById('target6');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar7(){
+  var origen = document.getElementById('target7');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar8(){
+  var origen = document.getElementById('target8');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar9(){
+  var origen = document.getElementById('target9');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+
+
+ function copiar10(){
+  var origen = document.getElementById('target10');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar11(){
+  var origen = document.getElementById('target11');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar12(){
+  var origen = document.getElementById('target12');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar13(){
+  var origen = document.getElementById('target13');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar14(){
+  var origen = document.getElementById('target14');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}

@@ -52,7 +52,7 @@ z-index: 99px;
   margin-top:280px;
 }
 .playpause {
-  
+
   padding: 25px;
   border-radius: 0% 0% 50% 50%;
   background: #5d2b0d;
@@ -321,7 +321,7 @@ height:40px;
 display:flex;
 justify-content: center; 
 align-items: center;
-letter-spacing: 5px;
+letter-spacing: 1px;
 }
 
 .dia{
@@ -2291,7 +2291,7 @@ z-index: 99px;
 /* heart div class - in html i used just a simple html simbol entity for heart sign, you can use text or whatever u want*/
 
 .heart {
-    margin-top:300px;
+    
   font-size: 150px;
   color: #e00;
   animation: beat .65s infinite alternate;
