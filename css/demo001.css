@@ -2291,7 +2291,7 @@ z-index: 99px;
 /* heart div class - in html i used just a simple html simbol entity for heart sign, you can use text or whatever u want*/
 
 .heart {
-    
+    margin-top: 300px;
   font-size: 150px;
   color: #e00;
   animation: beat .65s infinite alternate;
